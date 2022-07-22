@@ -27,15 +27,19 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='h-full flex flex-col gap-24  justify-center items-center'>
-      <button onClick={ayoClick} className='button-shadow bg-red-500 rounded-full w-52 h-52 text-white text-4xl uppercase font-extrabold text-center'><span>AYOOO</span>
+      <main className='h-full flex flex-row w-full justify-center items-center gap-12'>
+      <div className='flex flex-col  gap-12'>
+          <button onClick={laveClick} className='button-shadow bg-red-500 rounded-full w-44 h-44 text-white text-4xl uppercase font-extrabold text-center'><span>LAVE</span>
+          </button>
+      <button onClick={caoClick} className='button-shadow bg-red-500 rounded-full w-44 h-44 text-white text-4xl uppercase font-extrabold text-center'><span>ĆAO!</span>
   </button>
-      <button onClick={laveClick} className='button-shadow bg-red-500 rounded-full w-52 h-52 text-white text-4xl uppercase font-extrabold text-center'><span>LAVE</span>
+      </div>
+      <div className='flex flex-col gap-12'>
+      <button onClick={kreniClick} className='button-shadow bg-red-500 rounded-full w-44 h-44 text-white text-4xl uppercase font-extrabold text-center'><span>KRENI</span>
   </button>
-      <button onClick={kreniClick} className='button-shadow bg-red-500 rounded-full w-52 h-52 text-white text-4xl uppercase font-extrabold text-center'><span>KRENI</span>
-  </button>
-      <button onClick={caoClick} className='button-shadow bg-red-500 rounded-full w-52 h-52 text-white text-4xl uppercase font-extrabold text-center'><span>ĆAO!</span>
-  </button>
+         <button onClick={ayoClick} className='button-shadow bg-red-500 rounded-full w-44 h-44 text-white text-4xl uppercase font-extrabold text-center'><span>AYOOO</span>
+          </button>
+  </div>
       </main>
     </div>
   )

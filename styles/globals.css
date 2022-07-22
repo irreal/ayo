@@ -40,3 +40,9 @@ a {
   text-shadow: 0 3px 1px rgba(122,17,8,.8);
   box-shadow: 0 8px 0 rgb(183,9,0),0 15px 20px rgba(0,0,0,.35);
 }
+/* button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5rem;
+} */
