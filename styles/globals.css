@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
 html,
 body {
   padding: 0;
@@ -23,4 +34,9 @@ a {
     color: white;
     background: black;
   }
+}
+
+#launch {
+  text-shadow: 0 3px 1px rgba(122,17,8,.8);
+  box-shadow: 0 8px 0 rgb(183,9,0),0 15px 20px rgba(0,0,0,.35);
 }
