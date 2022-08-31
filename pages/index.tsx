@@ -100,7 +100,7 @@ const Home: NextPage = () => {
           <img
             alt="illustration of the sound effect"
             src={imgSrc}
-            className="object-cover h-full absolute left-0 top-0 w-full max-h-screen"
+            className="object-contain h-full absolute left-0 top-0 w-full max-h-screen"
           />
         )}
       </main>
