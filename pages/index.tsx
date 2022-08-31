@@ -58,6 +58,11 @@ const effects: effect[] = [
   },
 ];
 
+const preloadHrefs = effects
+  .map((eff) => eff.images.filter((i) => i && i.src).map((i) => i.src))
+  .flat();
+console.log(preloadHrefs);
+
 const Home: NextPage = () => {
   const [imgSrc, setImgSrc] = useState("");
   const playFns: { [key: string]: PlayFunction } = {};
@@ -82,6 +87,9 @@ const Home: NextPage = () => {
         <title>Victory Effects</title>
         <meta name="description" content="Victory Effects" />
         <link rel="icon" href="/favicon.ico" />
+        {preloadHrefs.map((href) => (
+          <link key={href} rel="preload" as="image" href={href}></link>
+        ))}
       </Head>
 
       <main className="h-full w-full relative">
