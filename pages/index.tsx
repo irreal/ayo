@@ -16,6 +16,14 @@ type effect = {
 
 const effects: effect[] = [
   {
+    title: "DISS",
+    soundSrc: "diss/diss.mp3",
+    images: [
+      { src: "diss/diss1.jpeg", timecode: 0 },
+      { src: "", timecode: 8000 },
+    ],
+  },
+  {
     title: "BYE",
     soundSrc: "bye/bye.mp3",
     images: [
