@@ -106,12 +106,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="h-full w-full relative">
-        <div className="h-full flex flex-col w-full justify-center items-center gap-12">
+        <div className="flex flex-row flex-wrap p-12 w-full justify-center items-center gap-12 overflow-y-scroll">
           {effects.map((ef) => (
             <button
               key={ef.title}
               onClick={() => playSound(ef.title)}
-              className="button-shadow bg-red-500 rounded-full w-44 h-44 text-white text-4xl uppercase font-extrabold text-center"
+              className="button-shadow bg-red-500 rounded-full w-24 h-24 text-white text-2xl uppercase font-extrabold text-center"
             >
               <span>{ef.title}</span>
             </button>
