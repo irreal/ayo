@@ -43,6 +43,11 @@ const effects: effect[] = [
     ],
   },
   {
+    title: "Alone",
+    soundSrc: "alone/alone.mp3",
+    images: [],
+  },
+  {
     title: "Ćao",
     soundSrc: "cao/cao.mp3",
     images: [
