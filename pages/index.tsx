@@ -48,6 +48,17 @@ const effects: effect[] = [
     images: [],
   },
   {
+    title: "džo",
+    soundSrc: "dzo/hejdzo.mp3",
+    images: [
+      // { src: "cao/cao1.png", timecode: 130 },
+      {
+        src: "",
+        timecode: 0,
+      },
+    ],
+  },
+  {
     title: "Ćao",
     soundSrc: "cao/cao.mp3",
     images: [
