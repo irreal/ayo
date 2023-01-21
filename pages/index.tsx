@@ -110,7 +110,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Victory Effects</title>
         <meta name="description" content="Victory Effects" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
         {preloadHrefs.map((href) => (
           <link key={href} rel="preload" as="image" href={href}></link>
         ))}
